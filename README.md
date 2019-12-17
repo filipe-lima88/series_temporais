@@ -23,8 +23,7 @@ Cada combinação de parâmetro foi executada 5 vezes. Os lags da janela foram p
 gridsearch. A série foi particionada em 3 conjuntos: 50% para Treinamento, 25% para Validação e 25% para Teste.
 Abaixo é mostrado o resultado (MSE) no conjunto de Teste obtido para 30 execuções.
 
-             Média  Desvio     Melhor MSE
-Com Tanh: 0.0014015 0.00018991 0.00115333
-Com Relu: 0.0018173 0.00091390 0.00107004
+Tanh: Média(0.0014015) Desvio(0.00018991) Melhor MSE(0.00115333)
+Relu: Média(0.0018173) Desvio(0.00091390) Melhor MSE(0.00107004)
 
 02 – Realize uma comparação entre a MLP e a ELM para previsão de uma série a sua escolha. Descreva cada etapa do processo, apresente como foi realizada essa comparação e os resultados obtidos.
